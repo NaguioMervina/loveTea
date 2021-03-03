@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layout.layoutWelcome')
 
 @section('welcome')
 <div class="sticky">
