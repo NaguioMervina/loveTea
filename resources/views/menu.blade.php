@@ -51,13 +51,6 @@
 <!-- Navbar section -->
 <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom"> <a class="navbar-brand ml-2 font-weight-bold" href="index.html"><span id="burgundy">Love</span><span id="orange">Tea</span></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor" aria-controls="navbarColor"
         aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-    <div class="collapse navbar-collapse" id="navbarColor">
-        <ul class="navbar-nav">
-            <li class="nav-item rounded bg-light search-nav-item"><input type="text" id="search" class="bg-light" placeholder="Search drinks, flavours"><span class="fa fa-search text-muted"></span></li>
-            <li class="nav-item"><a class="nav-link" href="login.html"><span class="fa fa-user-o"></span><span class="text">Login</span></a> </li>
-            <li class="nav-item "><a class="nav-link" href="cart1.html"><span class="fa fa-shopping-cart"></span><span class="text">Cart</span></a> </li>
-        </ul>
-    </div>
 </nav>
 <!-- Navbar mobile view -->
 <div class="filter"> <button class="btn btn-default" type="button" data-toggle="collapse" data-target="#mobile-filter" aria-expanded="true" aria-controls="mobile-filter">Filters<span class="fa fa-filter pl-1"></span></button>
