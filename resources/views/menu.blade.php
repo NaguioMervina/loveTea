@@ -95,10 +95,8 @@
 
 <!-- Sidebar filter section -->
 <section id="sidebar" style="background: url('images/teaBg.jpg');">
-    <p> Home | <b>All Drinks</b></p>
-    <div class="border-bottom pb-2 ml-2">
-        <h4 id="burgundy">Filters</h4>
-    </div>
+  
+    
     <div class="py-2 border-bottom ml-3">
         <h6 class="font-weight-bold">Categories</h6>
         <div id="orange"><span class="fa fa-minus"></span></div>
@@ -138,7 +136,7 @@
             <div class="ml-auto mr-lg-4">
                 <div id="sorting" class="border rounded p-1 m-1"> <span class="text-muted">Sort by</span> <select name="sort" id="sort">
                     <option value="popularity"><b>Popularity</b></option>
-                    <option value="prcie"><b>Price</b></option>
+                    <option value="price"><b>Price</b></option>
                     <option value="rating"><b>Rating</b></option>
                 </select> </div>
             </div>
@@ -192,17 +190,5 @@
 
 </div>
 
-
-
-<br>
-<div>&nbsp;</div>
-<br><br>
-
-<div class="footer" style="text-align: center;">
-
-
-
-    <a style="color: white; font-size: 12px; text-align: center; padding: 1px%;">© 2021 Copyright: A.N. Corp</a>
-</div>
 
 @endsection
