@@ -134,7 +134,7 @@
 <section id="products">
     <div class="container">
         <div class="d-flex flex-row">
-            <div class="text-muted m-2" id="res">Showing 6 results</div>
+            <div class="text-muted m-2" id="res">Showing 3 results</div>
             <div class="ml-auto mr-lg-4">
                 <div id="sorting" class="border rounded p-1 m-1"> <span class="text-muted">Sort by</span> <select name="sort" id="sort">
                     <option value="popularity"><b>Popularity</b></option>
@@ -144,42 +144,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1">
-                <div class="card"> <img class="card-img-top" src="images/product1.jpg">
-                    <div class="card-body">
-                        <h5><b>Okinawa</b> </h5>
-                        <div class="d-flex flex-row my-2">
-                            <div class="text-muted">&#8369;50.00</div>
-                            <div class="ml-auto"> <button class="border rounded bg-white sign"><span class="fa fa-plus" id="orange"></span></button> <span class="px-sm-1">1 pc</span> <button class="border rounded bg-white sign"><span class="fa fa-minus" id="orange"></span></button>                                    </div>
-                        </div>
-                        <a href="cart1.html" style="text-decoration: none;" style="color: purple;"> <button class="btn w-100 rounded my-2" style="border-color: wheat;">Add to cart</button></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1">
-                <div class="card"> <img class="card-img-top" src="images/product2.jpg">
-                    <div class="card-body">
-                        <h5><b>Cofee and Choco COMBO</b> </h5>
-                        <div class="d-flex flex-row my-2">
-                            <div class="text-muted">&#8369;50.00</div>
-                            <div class="ml-auto"> <button class="border rounded bg-white sign"><span class="fa fa-plus" id="orange"></span></button> <span class="px-sm-1">1 pc</span> <button class="border rounded bg-white sign"><span class="fa fa-minus" id="orange"></span></button>                                    </div>
-                        </div>
-                        <a href="cart1.html" style="text-decoration: none;" style="color: purple;"> <button class="btn w-100 rounded my-2" style="border-color: wheat;">Add to cart</button></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1">
-                <div class="card"> <img class="card-img-top" src="images/product3.jpg">
-                    <div class="card-body">
-                        <h5><b>TWINNY</b> </h5>
-                        <div class="d-flex flex-row my-2">
-                            <div class="text-muted">&#8369;50.00</div>
-                            <div class="ml-auto"> <button class="border rounded bg-white sign"><span class="fa fa-plus" id="orange"></span></button> <span class="px-sm-1">1 pc</span> <button class="border rounded bg-white sign"><span class="fa fa-minus" id="orange"></span></button>                                    </div>
-                        </div>
-                        <a href="cart1.html" style="text-decoration: none;" style="color: purple;"> <button class="btn w-100 rounded my-2" style="border-color: wheat;">Add to cart</button></a>
-                    </div>
-                </div>
-            </div>
+    
             <div class="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1">
                 <div class="card"> <img class="card-img-top" src="images/OreoMT.png">
                     <div class="card-body">
