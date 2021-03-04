@@ -13,3 +13,7 @@ Route::get('/menu', function () {
 Route::get('/cart', function () {
     return view('cart');
 });
+
+Route::get('/orderstats', function () {
+    return view('orderstats');
+}); 

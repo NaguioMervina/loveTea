@@ -22,14 +22,14 @@
             <button class="dropbtn">Order </button>
             <div class="dropdown-content">
                 <p>
-                    <a href="orderConfirm1.html">Order Status</a>
+                    <a href="/orderstats">Order Status</a>
                     <a href="trackOrder1.html">Track Order</a>
 
             </div>
         </div>
-        <a href="cart1.html">Cart</a>
-        <a href="productlist1.html">Menu</a>
-        <a href="index.html" class="active">Home</a>
+        <a href="/cart">Cart</a>
+        <a href="/menu">Menu</a>
+        <a href="/">Home</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
