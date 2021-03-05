@@ -41,3 +41,12 @@ Route::get('/admin', function () {
 Route::get('/productcategory', function () {
     return view('product&category');
 }); 
+
+Route::get('/inventorycategory', function () {
+    return view('inventory-category');
+}); 
+
+Route::get('/promotion', function () {
+    return view('promotion');
+}); 
+
