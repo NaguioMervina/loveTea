@@ -37,3 +37,7 @@ Route::get('/login', function () {
 Route::get('/admin', function () {
     return view('adminDashboard');
 }); 
+
+Route::get('/productcategory', function () {
+    return view('product&category');
+}); 
