@@ -17,3 +17,19 @@ Route::get('/cart', function () {
 Route::get('/orderstats', function () {
     return view('orderstats');
 }); 
+
+Route::get('/trackorder', function () {
+    return view('trackOrder');
+}); 
+
+Route::get('/accountsetting', function () {
+    return view('accountSetting');
+}); 
+
+Route::get('/register', function () {
+    return view('register');
+}); 
+
+Route::get('/login', function () {
+    return view('login');
+}); 
