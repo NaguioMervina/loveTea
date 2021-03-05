@@ -50,3 +50,10 @@ Route::get('/promotion', function () {
     return view('promotion');
 }); 
 
+Route::get('/adminorder', function () {
+    return view('adminOrder');
+}); 
+
+Route::get('/addproduct', function () {
+    return view('addProduct');
+}); 
