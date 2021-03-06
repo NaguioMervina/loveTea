@@ -69,3 +69,7 @@ Route::get('/editcategory', function () {
 Route::get('/editproduct', function () {
     return view('editproduct');
 }); 
+
+Route::get('/editorder', function () {
+    return view('editOrders');
+}); 
