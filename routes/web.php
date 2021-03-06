@@ -57,3 +57,15 @@ Route::get('/adminorder', function () {
 Route::get('/addproduct', function () {
     return view('addProduct');
 }); 
+
+Route::get('/addcategory', function () {
+    return view('addCategory');
+}); 
+
+Route::get('/editcategory', function () {
+    return view('editCategory');
+}); 
+
+Route::get('/editproduct', function () {
+    return view('editproduct');
+}); 
