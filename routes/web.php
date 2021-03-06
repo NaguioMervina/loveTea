@@ -14,15 +14,15 @@ Route::get('/cart', function () {
     return view('cart');
 });
 
-Route::get('/orderstats', function () {
+Route::get('/order-status', function () {
     return view('orderstats');
 }); 
 
-Route::get('/trackorder', function () {
+Route::get('/track-order', function () {
     return view('trackOrder');
 }); 
 
-Route::get('/accountsetting', function () {
+Route::get('/account-setting', function () {
     return view('accountSetting');
 }); 
 
@@ -38,11 +38,11 @@ Route::get('/admin', function () {
     return view('adminDashboard');
 }); 
 
-Route::get('/productcategory', function () {
+Route::get('/product-category', function () {
     return view('product&category');
 }); 
 
-Route::get('/inventorycategory', function () {
+Route::get('/inventory-category', function () {
     return view('inventory-category');
 }); 
 
@@ -50,26 +50,34 @@ Route::get('/promotion', function () {
     return view('promotion');
 }); 
 
-Route::get('/adminorder', function () {
+Route::get('/admin-order', function () {
     return view('adminOrder');
 }); 
 
-Route::get('/addproduct', function () {
+Route::get('/add-product', function () {
     return view('addProduct');
 }); 
 
-Route::get('/addcategory', function () {
+Route::get('/add-category', function () {
     return view('addCategory');
 }); 
 
-Route::get('/editcategory', function () {
+Route::get('/edit-category', function () {
     return view('editCategory');
 }); 
 
-Route::get('/editproduct', function () {
+Route::get('/edit-product', function () {
     return view('editproduct');
 }); 
 
-Route::get('/editorder', function () {
+Route::get('/edit-order', function () {
     return view('editOrders');
+}); 
+
+Route::get('/confirm-account', function () {
+    return view('confirmAcc');
+}); 
+
+Route::get('/contact-us', function () {
+    return view('contactUs');
 }); 
