@@ -81,3 +81,11 @@ Route::get('/confirm-account', function () {
 Route::get('/contact-us', function () {
     return view('contactUs');
 }); 
+
+Route::get('/checkout', function () {
+    return view('checkout');
+}); 
+
+Route::get('/order-details', function () {
+    return view('orderDetails');
+}); 
