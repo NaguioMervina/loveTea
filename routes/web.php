@@ -2,12 +2,15 @@
 
 use Illuminate\Support\Facades\Route;
 
+//universal can be a guests homepage
 Route::get('/', function () {
     return view('welcome');
 });
 
+
+//user-side or registered user
 Route::get('/user', function () {
-    return view('welcomeUser');
+    return view('users/welcomeUser');
 });
 
 Route::get('/menu', function () {
@@ -38,45 +41,7 @@ Route::get('/login', function () {
     return view('login');
 }); 
 
-Route::get('/admin', function () {
-    return view('adminDashboard');
-}); 
 
-Route::get('/product-category', function () {
-    return view('product&category');
-}); 
-
-Route::get('/inventory-category', function () {
-    return view('inventory-category');
-}); 
-
-Route::get('/promotion', function () {
-    return view('promotion');
-}); 
-
-Route::get('/admin-order', function () {
-    return view('adminOrder');
-}); 
-
-Route::get('/add-product', function () {
-    return view('addProduct');
-}); 
-
-Route::get('/add-category', function () {
-    return view('addCategory');
-}); 
-
-Route::get('/edit-category', function () {
-    return view('editCategory');
-}); 
-
-Route::get('/edit-product', function () {
-    return view('editproduct');
-}); 
-
-Route::get('/edit-order', function () {
-    return view('editOrders');
-}); 
 
 Route::get('/confirm-account', function () {
     return view('confirmAcc');
@@ -96,4 +61,47 @@ Route::get('/order-details', function () {
 
 Route::get('/forgot-password', function () {
     return view('forgotPsswrd');
+}); 
+
+
+
+//Admin-side
+Route::get('/promotion', function () {
+    return view('admin/promotion');
+}); 
+
+Route::get('/admin-order', function () {
+    return view('admin/adminOrder');
+}); 
+
+Route::get('/add-product', function () {
+    return view('admin/addProduct');
+}); 
+
+Route::get('/add-category', function () {
+    return view('admin/addCategory');
+}); 
+
+Route::get('/edit-category', function () {
+    return view('admin/editCategory');
+}); 
+
+Route::get('/edit-product', function () {
+    return view('admin/editproduct');
+}); 
+
+Route::get('/edit-order', function () {
+    return view('admin/editOrders');
+}); 
+
+Route::get('/admin', function () {
+    return view('adminDashboard');
+}); 
+
+Route::get('/product-category', function () {
+    return view('product&category');
+}); 
+
+Route::get('/inventory-category', function () {
+    return view('inventory-category');
 }); 
