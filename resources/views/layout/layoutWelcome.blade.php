@@ -28,8 +28,7 @@
                 <button class="dropbtn">Profile </button>
                 <div class="dropdown-content">
                     <p>
-                        <a href="/acount-setting">Account Settings</a>
-                        <a href="/login">Sign Out</a>
+                        <a href="/guest-login">Account Settings</a>
                 </div>
             </div>
 

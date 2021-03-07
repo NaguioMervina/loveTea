@@ -6,28 +6,19 @@
     <div class="container1">
         <img src="images/head.png" class="responsive1" width="200" height="100" &nbsp;>
     </div>
-    <div class="topnav" id="myTopnav">
 
+    <div class="topnav" id="myTopnav">
         <a href="login.html">Login</a>
-        <a href="signup.html">Register</a>
         <div class="dropdown1">
             <button class="dropbtn">Profile </button>
             <div class="dropdown-content">
                 <p>
-                    <a href="editProfile1.html">Account Settings</a>
-                    <a href="login.html">Sign Out</a>
+                    <a href="/account-setting">Account Settings</a>
+                    
             </div>
         </div>
-
-        <div class="dropdown1">
-            <button class="dropbtn">Order </button>
-            <div class="dropdown-content">
-                <p>
-                    <a href="/orderstats">Order Status</a>
-                    <a href="trackOrder1.html">Track Order</a>
-
-            </div>
-        </div>
+        
+        <a href="/error">Order Tracker</a>
         <a href="/cart">Cart</a>
         <a href="/menu">Menu</a>
         <a href="/">Home</a>

@@ -10,16 +10,17 @@
         <img src="images/head.png" class="responsive1" width="200" height="100" &nbsp;>
     </div>
     <div class="topnav" id="myTopnav">
-        <a href="login.html">Login</a>
+        <a href="/login">Login</a>
         <div class="dropdown1">
+
             <button class="dropbtn">Profile </button>
             <div class="dropdown-content">
                 <p>
-                    <a href="editProfile1.html">Account Settings</a>
-                    <a href="login.html">Sign Out</a>
+                    <a href="/guest-login">Account Settings</a>
+                
             </div>
         </div>
-        <a href="/cart">Order Tracker</a>
+        <a href="/error">Order Tracker</a>
         <a href="/cart">Cart</a>
         <a href="/menu">Menu</a>
         <a href="/">Home</a>

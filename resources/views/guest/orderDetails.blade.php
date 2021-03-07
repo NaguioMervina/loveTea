@@ -15,12 +15,12 @@
                 <button class="dropbtn">Profile </button>
                 <div class="dropdown-content">
                     <p>
-                        <a href="/acount-setting">Account Settings</a>
-                        <a href="/login">Sign Out</a>
+                        <a href="/error">Account Settings</a>
+                        
                 </div>
             </div>
 
-            <a href="/cart">Order Tracker</a>
+            <a href="/error">Order Tracker</a>
             <a href="/cart">Cart</a>
             <a href="/menu">Menu</a>
             <a href="/">Home</a>
