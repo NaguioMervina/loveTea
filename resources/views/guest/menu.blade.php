@@ -11,7 +11,6 @@
     </div>
     <div class="topnav" id="myTopnav">
         <a href="login.html">Login</a>
-        <a href="signup.html">Register</a>
         <div class="dropdown1">
             <button class="dropbtn">Profile </button>
             <div class="dropdown-content">
@@ -20,16 +19,7 @@
                     <a href="login.html">Sign Out</a>
             </div>
         </div>
-
-        <div class="dropdown1">
-            <button class="dropbtn">Order </button>
-            <div class="dropdown-content">
-                <p>
-                    <a href="/orderstats">Order Status</a>
-                    <a href="trackOrder.html">Track Order</a>
-
-            </div>
-        </div>
+        <a href="/cart">Order Tracker</a>
         <a href="/cart">Cart</a>
         <a href="/menu">Menu</a>
         <a href="/">Home</a>

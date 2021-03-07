@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <html>
-<title>Homepage</title>
+<title>LoveTea</title>
 
 <head>
     <link rel="shortcut icon" type="image/png" href="images/LT_logo.png">
@@ -24,16 +24,16 @@
     
         <div class="topnav" id="myTopnav">
             <a  href="/login">Login</a>
-            <a href="/register">Register</a>
             <div class="dropdown">
-                <button class="dropbtn">Order </button>
+                <button class="dropbtn">Profile </button>
                 <div class="dropdown-content">
                     <p>
-                        <a href="/orderstats">Order Status</a>
-                        <a href="/track-order">Track Order</a>
-    
+                        <a href="/acount-setting">Account Settings</a>
+                        <a href="/login">Sign Out</a>
                 </div>
             </div>
+
+            <a href="#">Order Tracker</a>
             <a href="/cart">Cart</a>
             <a href="/menu">Menu</a>
             <a href="/">Home</a>

@@ -17,7 +17,7 @@
 </head>
 
 <body>
-   @yield('welcome')
+   @yield('welcomeUser')
    
 </body>
 

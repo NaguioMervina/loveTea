@@ -10,9 +10,8 @@
 
 
         <div class="dropdown1">
-            <a href="#">&nbsp;</a>
-
-            <a>&nbsp;</a>
+            
+            <a href="cart.html">Login</a>
             <button class="dropbtn">Profile </button>
             <div class="dropdown-content">
                 <p>
@@ -21,18 +20,10 @@
             </div>
         </div>
 
-        <div class="dropdown1">
-            <button class="dropbtn">Order </button>
-            <div class="dropdown-content">
-                <p>
-                    <a href="orderConfirm.html">Order Status</a>
-                    <a href="trackOrder.html">Track Order</a>
-
-            </div>
-        </div>
-        <a href="cart.html">Cart</a>
-        <a href="productlist.html">Menu</a>
-        <a href="index1.html" class="active">Home</a>
+        <a href="cart.html">Order Tracker</a>
+        <a href="/cart">Cart</a>
+        <a href="/menu">Menu</a>
+        <a href="/" class="active">Home</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>

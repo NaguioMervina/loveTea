@@ -3,49 +3,42 @@
 @section('orderDetails')
 <div class="sticky">
 
-    <div class="container1">
-        <img src="images/head.png" class="responsive1" width="200" height="100" &nbsp;>
-    </div>
-    <div class="topnav" id="myTopnav">
-
-        <div class="dropdown1">
-            <a href="#">&nbsp;</a>
-            <a>&nbsp;</a>
-            <button class="dropbtn">Profile </button>
-            <div class="dropdown-content">
-                <p>
-                    <a href="editProfile.html">Account Settings</a>
-                    <a href="login.html">Sign Out</a>
-            </div>
+    
+    <div class="sticky">
+        <div class="container">
+            <img src="images/head.png" class="responsive1" width="200" height="100" &nbsp;>
         </div>
-
-        <div class="dropdown1">
-            <button class="dropbtn">Order </button>
-            <div class="dropdown-content">
-                <p>
-                    <a href="orderConfirm.html">Order Status</a>
-                    <a href="trackOrder.html">Track Order</a>
-
+    
+        <div class="topnav" id="myTopnav">
+            <a  href="/login">Login</a>
+            <div class="dropdown">
+                <button class="dropbtn">Profile </button>
+                <div class="dropdown-content">
+                    <p>
+                        <a href="/acount-setting">Account Settings</a>
+                        <a href="/login">Sign Out</a>
+                </div>
             </div>
+
+            <a href="/cart">Order Tracker</a>
+            <a href="/cart">Cart</a>
+            <a href="/menu">Menu</a>
+            <a href="/">Home</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </div>
-        <a href="cart.html">Cart</a>
-        <a href="productlist.html">Menu</a>
-        <a href="index1.html" class="active">Home</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
             }
-        }
-    </script>
-</div>
+        </script>
+    </div>
 <nav class="bg-pink">
 
     <header>

@@ -7,30 +7,20 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
-//user-side or registered user
-Route::get('/user', function () {
-    return view('users/welcomeUser');
-});
-
-Route::get('/menu', function () {
-    return view('menu');
-});
-
-Route::get('/cart', function () {
-    return view('cart');
-});
-
-Route::get('/order-status', function () {
-    return view('orderstats');
+Route::get('/contact-us', function () {
+    return view('contactUs');
 }); 
 
-Route::get('/track-order', function () {
-    return view('trackOrder');
+Route::get('/confirm-account-user', function () {
+    return view('confirmAcc');
 }); 
 
-Route::get('/account-setting', function () {
-    return view('accountSetting');
+Route::get('/forgot-password', function () {
+    return view('forgotPsswrd');
+}); 
+
+Route::get('/guest-login', function () {
+    return view('loginGuest');
 }); 
 
 Route::get('/register', function () {
@@ -43,25 +33,69 @@ Route::get('/login', function () {
 
 
 
-Route::get('/confirm-account', function () {
-    return view('confirmAcc');
+//user-side or registered user
+Route::get('/user', function () {
+    return view('users/welcomeUser');
+});
+
+Route::get('/menu-user', function () {
+    return view('users/menu');
+});
+
+Route::get('/cart-user', function () {
+    return view('users/cart');
+});
+//may revise //belongs to order button
+Route::get('/order-status-user', function () {
+    return view('users/orderstats');
 }); 
 
-Route::get('/contact-us', function () {
-    return view('contactUs');
+//may revise //belongs to order button
+Route::get('/track-order-user', function () {
+    return view('users/trackOrder');
 }); 
+
+Route::get('/account-setting-user', function () {
+    return view('users/accountSetting');
+}); 
+
+Route::get('/checkout-user', function () {
+    return view('users/checkout');
+}); 
+
+Route::get('/order-details-user', function () {
+    return view('users/orderDetails');
+}); 
+
+
+
+
+//guest user side
+
+Route::get('/menu', function () {
+    return view('guest/menu');
+});
+
+Route::get('/cart', function () {
+    return view('guest/cart');
+});
+
 
 Route::get('/checkout', function () {
-    return view('checkout');
+    return view('guest/checkout');
 }); 
 
-Route::get('/order-details', function () {
-    return view('orderDetails');
-}); 
 
-Route::get('/forgot-password', function () {
-    return view('forgotPsswrd');
-}); 
+
+
+
+
+
+
+
+
+
+
 
 
 

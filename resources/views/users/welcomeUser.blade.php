@@ -1,6 +1,6 @@
-@extends('layout.layoutWelcome')
+@extends('layout.layoutWelcomeUser')
 
-@section('welcome')
+@section('welcomeUser')
 <div class="sticky">
 
     <div class="container">
@@ -8,6 +8,7 @@
     </div>
 
     <div class="topnav" id="myTopnav">
+        <a href="/">Logout</a>
         <div class="dropdown">
             <button class="dropbtn">Profile </button>
             <div class="dropdown-content">
@@ -17,18 +18,10 @@
             </div>
         </div>
 
-        <div class="dropdown">
-            <button class="dropbtn">Order </button>
-            <div class="dropdown-content">
-                <p>
-                    <a href="/orderstats">Order Status</a>
-                    <a href="/track-order">Track Order</a>
-
-            </div>
-        </div>
+        <a href="/cart">Order Tracker</a>
         <a href="/cart">Cart</a>
         <a href="/menu">Menu</a>
-        <a href="/">Home</a>
+        <a href="/user">Home</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
