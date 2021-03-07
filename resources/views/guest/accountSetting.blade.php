@@ -12,11 +12,11 @@
             <a href="#">&nbsp;</a>
 
             <a>&nbsp;</a>
+            
             <button class="dropbtn">Profile </button>
             <div class="dropdown-content">
                 <p>
-                    <a href="editProfile.html">Account Settings</a>
-                    <a href="login.html">Sign Out</a>
+                    <a href="account-setting">Account Settings</a>
             </div>
         </div>
 
