@@ -16,7 +16,7 @@
             <button class="dropbtn">Profile </button>
             <div class="dropdown-content">
                 <p>
-                    <a href="/guest-login">Account Settings</a>
+                    <a href="/error">Account Settings</a>
                 
             </div>
         </div>

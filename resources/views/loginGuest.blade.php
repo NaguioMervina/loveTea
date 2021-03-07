@@ -16,12 +16,12 @@
         <div class="button">
             <div class="inner">
             </div>
-            <button><a  href="index1.html" style="color: white; text-decoration: none;">LOGIN</a></button>
+            <button><a  href="/user" style="color: white; text-decoration: none;">LOGIN</a></button>
         </div>
         <div class="button">
             <div class="inner">
             </div>
-            <button><a  href="index.html" style="color: white; text-decoration: none;">HOME</a></button>
+            <button><a  href="/checkout" style="color: white; text-decoration: none;">ORDER AS GUEST</a></button>
         </div>
     </form>
     <div class="auth">
@@ -35,10 +35,10 @@
         </div>
     </div>
     <div class="signup">
-        Don't have an account? <a href="#">Signup now</a>
+        Don't have an account? <a href="/register">Signup now</a>
     </div>
     <div class="signup">
-        <a href="loginadmin.html">Admin</a>
+        <a href="/admin">Admin</a>
     </div>
     <script>
         var input = document.querySelector('.pswrd');

@@ -85,6 +85,9 @@ Route::get('/checkout', function () {
     return view('guest/checkout');
 }); 
 
+Route::get('/order-details', function () {
+    return view('guest/orderDetails');
+}); 
 
 
 

@@ -15,7 +15,7 @@
             <button class="dropbtn">Profile </button>
             <div class="dropdown-content">
                 <p>
-                    <a href="/guest-login">Account Settings</a>
+                    <a href="/error">Account Settings</a>
                     
             </div>
         </div>
@@ -209,7 +209,7 @@
                         </a>
                     </div>
                     <div class="col-md-6 pt-md-0 pt-3">
-                        <a href="orderDetail.html">
+                        <a href="/order-details">
                             <div class="btn text-white ml-auto"> <span></span> Place Order </div>
                         </a>
                     </div>

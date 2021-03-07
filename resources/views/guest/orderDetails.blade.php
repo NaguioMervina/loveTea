@@ -3,42 +3,40 @@
 @section('orderDetails')
 <div class="sticky">
 
-    
-    <div class="sticky">
-        <div class="container">
-            <img src="images/head.png" class="responsive1" width="200" height="100" &nbsp;>
-        </div>
-    
-        <div class="topnav" id="myTopnav">
-            <a  href="/login">Login</a>
-            <div class="dropdown">
-                <button class="dropbtn">Profile </button>
-                <div class="dropdown-content">
-                    <p>
-                        <a href="/error">Account Settings</a>
-                        
-                </div>
-            </div>
-
-            <a href="/error">Order Tracker</a>
-            <a href="/cart">Cart</a>
-            <a href="/menu">Menu</a>
-            <a href="/">Home</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
-        </div>
-        <script>
-            function myFunction() {
-                var x = document.getElementById("myTopnav");
-                if (x.className === "topnav") {
-                    x.className += " responsive";
-                } else {
-                    x.className = "topnav";
-                }
-            }
-        </script>
+    <div class="container1">
+        <img src="images/head.png" class="responsive1" width="200" height="100" &nbsp;>
     </div>
+    <div class="topnav" id="myTopnav">
+        <a href="/login">Login</a>
+       <!-- users profile -->
+        <div class="dropdown1">
+            <button class="dropbtn">Profile </button>
+            <div class="dropdown-content">
+                <p>
+                    <a href="/error">Account Settings</a>
+            </div>
+        </div>
+
+        <a href="/error">Order Tracker</a>
+        <a href="/cart">Cart</a>
+        <a href="/menu">Menu</a>
+        <a href="/">Home</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</div>
+  
 <nav class="bg-pink">
 
     <header>
@@ -95,7 +93,7 @@
             <div class="ml-auto h5"> &#8369; 98.00 </div>
         </div>
         <div>
-            <button class="btn btn-danger btn-block order-button" style=" background-color: wheat;"><a href="productlist.html" style="color: rgb(43, 42, 42); ">Go back to menu</a></button>
+            <button class="btn btn-danger btn-block order-button" style=" background-color: wheat;"><a href="/menu" style="color: rgb(43, 42, 42); ">Go back to menu</a></button>
         </div>
 
         <div class="row border rounded p-1 my-3">
