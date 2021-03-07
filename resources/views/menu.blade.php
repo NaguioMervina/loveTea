@@ -128,6 +128,7 @@
         </form>
     </div>
 </section>
+
 <!-- products section -->
 <section id="products">
     <div class="container">
@@ -184,11 +185,8 @@
 
         </div>
     </div>
-
+    
 </section>
-
-
 </div>
-
 
 @endsection

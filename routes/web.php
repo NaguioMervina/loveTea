@@ -6,6 +6,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/user', function () {
+    return view('welcomeUser');
+});
+
 Route::get('/menu', function () {
     return view('menu');
 });
@@ -88,4 +92,8 @@ Route::get('/checkout', function () {
 
 Route::get('/order-details', function () {
     return view('orderDetails');
+}); 
+
+Route::get('/forgot-password', function () {
+    return view('forgotPsswrd');
 }); 

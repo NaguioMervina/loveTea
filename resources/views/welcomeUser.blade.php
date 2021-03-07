@@ -1,6 +1,52 @@
 @extends('layout.layoutWelcome')
 
 @section('welcome')
+<div class="sticky">
+
+    <div class="container">
+        <img src="images/head.png" class="responsive1" width="200" height="100" &nbsp;>
+    </div>
+
+    <div class="topnav" id="myTopnav">
+        <div class="dropdown">
+            <button class="dropbtn">Profile </button>
+            <div class="dropdown-content">
+                <p>
+                    <a href="/acount-setting">Account Settings</a>
+                    <a href="/login">Sign Out</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">Order </button>
+            <div class="dropdown-content">
+                <p>
+                    <a href="/orderstats">Order Status</a>
+                    <a href="/track-order">Track Order</a>
+
+            </div>
+        </div>
+        <a href="/cart">Cart</a>
+        <a href="/menu">Menu</a>
+        <a href="/">Home</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</div>
 <div class="container1">
 
     <div class="slideshow-container">

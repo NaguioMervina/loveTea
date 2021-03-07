@@ -20,7 +20,7 @@
 </head>
 
 <body>
+    
     @yield('menu')
 </body>
-
 </html>
