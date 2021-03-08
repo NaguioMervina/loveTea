@@ -101,7 +101,6 @@ Route::get('/order-details', function () {
 
 
 
-
 //Admin-side
 Route::get('/promotion', function () {
     return view('admin/promotion');
@@ -132,13 +131,13 @@ Route::get('/edit-order', function () {
 }); 
 
 Route::get('/admin', function () {
-    return view('adminDashboard');
+    return view('admin/adminDashboard');
 }); 
 
 Route::get('/product-category', function () {
-    return view('product&category');
+    return view('admin/product&category');
 }); 
 
 Route::get('/inventory-category', function () {
-    return view('inventory-category');
+    return view('admin/inventory-category');
 }); 

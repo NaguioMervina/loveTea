@@ -72,8 +72,7 @@
                     <div class="col-md-6"><label class="labels">Name</label><input type="text" class="form-control" placeholder="Set Now" value=""></div>
                     <div class="col-md-6"><label class="labels">Username</label><input type="text" class="form-control" value="" placeholder="Set Now"></div>
                 </div>
-                <div class="row mt-3">
-                    <div class="col-md-12"><label class="labels">Gender</label><input type="text" class="form-control" placeholder="Set Now" value=""></div>
+                <div class="row mt-3">  
                     <div class="col-md-12"><label class="labels">Birthday</label><input type="date" class="form-control" placeholder="Set Now" value=""></div>
                     <div class="col-md-12"><label class="labels">Phone</label><input type="tel" class="form-control " placeholder="Set Now" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" value="" required></div>
                     <div class="col-md-12"><label class="labels">Email Address</label><input type="text" class="form-control" placeholder="Set Now" value=""></div>

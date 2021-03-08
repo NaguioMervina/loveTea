@@ -28,19 +28,19 @@
                             </span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="product&categories.html">Products & Categories</a>
+                            <a class="dropdown-item" href="/product-category">Products & Categories</a>
 
-                            <a class="dropdown-item" href="Categories.html">Inventory</a>
+                            <a class="dropdown-item" href="/inventory-category">Inventory</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Discount.html">
+                        <a class="nav-link" href="/promotion">
                             <i class="fas fa-tags"></i> Promotions
                         </a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="Orders.html">
+                        <a class="nav-link" href="/admin-order">
                             <i class="fas fa-truck"></i> Orders
                         </a>
                     </li>
@@ -48,7 +48,7 @@
                 </ul>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link d-block" href="loginadmin.html">
+                        <a class="nav-link d-block" href="/login">
                             Admin, <b>Logout</b>
                         </a>
                     </li>

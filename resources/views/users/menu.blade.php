@@ -22,7 +22,7 @@
         <a href="/error">Order Tracker</a>
         <a href="/cart-user">Cart</a>
         <a href="/menu-user">Menu</a>
-        <a href="/">Home</a>
+        <a href="/user">Home</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
