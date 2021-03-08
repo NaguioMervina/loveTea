@@ -145,3 +145,6 @@ Route::get('/inventory-category', function () {
 Route::get('/originals-inventory', function () {
     return view('admin/originals-inventory');
 }); 
+
+
+

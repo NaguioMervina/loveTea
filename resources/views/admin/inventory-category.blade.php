@@ -3,7 +3,7 @@
 @section('inventory-category')
 <nav class="navbar navbar-expand-xl">
     <div class="container h-100">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="/">
             <h1 class="tm-site-title mb-0">Love Tea Company</h1>
         </a>
         <button class="navbar-toggler ml-auto mr-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,10 +25,12 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="/product-category">Product & Categories</a>
-
                         <a class="dropdown-item" href="/inventory-category">Inventory</a>
+
                     </div>
                 </li>
+
+
                 <li class="nav-item">
                     <a class="nav-link " href="/promotion">
                         <i class="fas fa-tags"></i> Promotions

@@ -112,7 +112,7 @@
                                     <td>Complete</td>
                                     <td>Paid</td>
                                     <td>
-                                        <a href="Order-edit.html ">
+                                        <a href="/edit-order ">
                                             <i style="color: rgb(25, 25, 26);" class="fas fa-eye">&nbsp;View</i>
                                         </a>
 

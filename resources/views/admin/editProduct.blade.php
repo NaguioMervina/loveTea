@@ -3,7 +3,7 @@
 @section('editProduct')
 <nav class="navbar navbar-expand-xl">
     <div class="container h-100">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="/">
             <h1 class="tm-site-title mb-0">Love Tea Company</h1>
         </a>
         <button class="navbar-toggler ml-auto mr-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -13,7 +13,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto h-100">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">
+                    <a class="nav-link" href="/admin">
                         <i class="fas fa-tachometer-alt"></i> Dashboard
                         <span class="sr-only">(current)</span>
                     </a>
@@ -24,19 +24,21 @@
                         <span> Catalog <i class="fas fa-angle-down"></i> </span>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="product&categories.html">Product & Categories</a>
-                        <a class="dropdown-item" href="Categories.html">Inventory</a>
+                        <a class="dropdown-item" href="/product-category">Product & Categories</a>
+                        <a class="dropdown-item" href="/inventory-category">Inventory</a>
 
                     </div>
                 </li>
+
+
                 <li class="nav-item">
-                    <a class="nav-link " href="Discount.html">
+                    <a class="nav-link " href="/promotion">
                         <i class="fas fa-tags"></i> Promotions
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="Orders.html">
+                    <a class="nav-link" href="/admin-order">
                         <i class="fas fa-truck"></i> Orders
                     </a>
                 </li>
@@ -44,7 +46,7 @@
             </ul>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link d-block" href="loginadmin.html">
+                    <a class="nav-link d-block" href="/login">
             Admin, <b>Logout</b>
           </a>
                 </li>
