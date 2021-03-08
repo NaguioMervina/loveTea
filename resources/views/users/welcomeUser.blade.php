@@ -13,14 +13,13 @@
             <button class="dropbtn">Profile </button>
             <div class="dropdown-content">
                 <p>
-                    <a href="/acount-setting">Account Settings</a>
-                    <a href="/login">Sign Out</a>
+                    <a href="/account-setting-user">Account Settings</a>
             </div>
         </div>
 
-        <a href="/cart">Order Tracker</a>
-        <a href="/cart">Cart</a>
-        <a href="/menu">Menu</a>
+        <a href="/error">Order Tracker</a>
+        <a href="/cart-user">Cart</a>
+        <a href="/menu-user">Menu</a>
         <a href="/user">Home</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>

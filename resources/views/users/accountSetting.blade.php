@@ -7,31 +7,20 @@
         <img src="images/head.png" class="responsive1" width="200" height="100" &nbsp;>
     </div>
     <div class="topnav" id="myTopnav">
-
+        <a href="/">Logout</a>
         <div class="dropdown1">
-            <a href="#">&nbsp;</a>
-
-            <a>&nbsp;</a>
             <button class="dropbtn">Profile </button>
             <div class="dropdown-content">
                 <p>
-                    <a href="editProfile.html">Account Settings</a>
-                    <a href="login.html">Sign Out</a>
+                    <a href="/account-setting-user">Account Settings</a>
+                    
             </div>
         </div>
 
-        <div class="dropdown1">
-            <button class="dropbtn">Order </button>
-            <div class="dropdown-content">
-                <p>
-                    <a href="orderConfirm.html">Order Status</a>
-                    <a href="trackOrder.html">Track Order</a>
-
-            </div>
-        </div>
-        <a href="cart.html">Cart</a>
-        <a href="productlist.html">Menu</a>
-        <a href="index1.html" class="active">Home</a>
+        <a href="/error">Order Tracker</a>
+        <a href="/cart-user">Cart</a>
+        <a href="/menu-user">Menu</a>
+        <a href="/user">Home</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>

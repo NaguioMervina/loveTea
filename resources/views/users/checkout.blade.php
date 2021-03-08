@@ -7,32 +7,19 @@
         <img src="images/head.png" class="responsive1" width="200" height="100" &nbsp;>
     </div>
     <div class="topnav" id="myTopnav">
-
-
+        <a href="/">Logout</a>
         <div class="dropdown1">
-            <a href="#">&nbsp;</a>
-
-            <a>&nbsp;</a>
             <button class="dropbtn">Profile </button>
             <div class="dropdown-content">
                 <p>
-                    <a href="editProfile.html">Account Settings</a>
-                    <a href="login.html">Sign Out</a>
+                    <a href="/account-setting-user">Account Settings</a>
             </div>
         </div>
 
-        <div class="dropdown1">
-            <button class="dropbtn">Order </button>
-            <div class="dropdown-content">
-                <p>
-                    <a href="orderConfirm.html">Order Status</a>
-                    <a href="trackOrder.html">Track Order</a>
-
-            </div>
-        </div>
-        <a href="cart.html">Cart</a>
-        <a href="productlist.html">Menu</a>
-        <a href="index1.html" class="active">Home</a>
+        <a href="/error">Order Tracker</a>
+        <a href="/cart-user">Cart</a>
+        <a href="/menu-user">Menu</a>
+        <a href="/user" class="active">Home</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
@@ -67,7 +54,7 @@
                 <div class="mobile h5">Billing Address</div>
                 <div id="details" class="bg-white rounded pb-5">
                     <form>
-                        <div class="form-group"> <label class="text-muted">Name</label> <input type="text" name="firstname" placeholder="First Name" required class="form-control"> </div>
+                        <div class="form-group"> <label class="text-muted">Name</label> <input type="text" name="firstname" placeholder="Full Name" required class="form-control"> </div>
                         <div class="form-group"> <label class="text-muted">Email</label>
                             <div class="form-group"> <input type="email" name="Email Address" placeholder="Email Address" required class="form-control"></div>
                         </div>
@@ -121,7 +108,7 @@
                 <div id="cart" class="bg-white rounded">
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="h6">Cart Summary</div>
-                        <div class="h6"> <a href="cart.html">Edit</a> </div>
+                    <!--  //edit cart purpose  <div class="h6"> <a href="cart.html">Edit</a> </div> -->
                     </div>
                     <div class="d-flex jusitfy-content-between align-items-center pt-3 pb-2 border-bottom">
                         <div class="item pr-2"> <img src="images/melkti.jpg" alt="" width="80" height="80">
@@ -213,12 +200,12 @@
 
                 <div class="row pt-lg-3 pt-2 buttons mb-sm-0 mb-2">
                     <div class="col-md-6">
-                        <a href="index.html">
-                            <div class="btn text-uppercase">back to shopping</div>
+                        <a href="/menu-user">
+                            <div class="btn text-uppercase">Back to Shopping</div>
                         </a>
                     </div>
                     <div class="col-md-6 pt-md-0 pt-3">
-                        <a href="orderDetail.html">
+                        <a href="/order-details-user">
                             <div class="btn text-white ml-auto"> <span></span> Place Order </div>
                         </a>
                     </div>

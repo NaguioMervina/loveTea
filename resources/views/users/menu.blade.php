@@ -10,28 +10,18 @@
         <img src="images/head.png" class="responsive1" width="200" height="100" &nbsp;>
     </div>
     <div class="topnav" id="myTopnav">
-        <a href="login.html">Login</a>
-        <a href="signup.html">Register</a>
+        <a href="/">Logout</a>
         <div class="dropdown1">
             <button class="dropbtn">Profile </button>
             <div class="dropdown-content">
                 <p>
-                    <a href="editProfile1.html">Account Settings</a>
-                    <a href="login.html">Sign Out</a>
+                    <a href="account-setting-user">Account Settings</a>
             </div>
         </div>
 
-        <div class="dropdown1">
-            <button class="dropbtn">Order </button>
-            <div class="dropdown-content">
-                <p>
-                    <a href="/orderstats">Order Status</a>
-                    <a href="trackOrder.html">Track Order</a>
-
-            </div>
-        </div>
-        <a href="/cart">Cart</a>
-        <a href="/menu">Menu</a>
+        <a href="/error">Order Tracker</a>
+        <a href="/cart-user">Cart</a>
+        <a href="/menu-user">Menu</a>
         <a href="/">Home</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
@@ -152,7 +142,7 @@
                             <div class="text-muted">&#8369;50.00</div>
                             <div class="ml-auto"> <button class="border rounded bg-white sign"><span class="fa fa-plus" id="orange"></span></button> <span class="px-sm-1">1 pc</span> <button class="border rounded bg-white sign"><span class="fa fa-minus" id="orange"></span></button>                                    </div>
                         </div>
-                        <a href="cart1.html" style="text-decoration: none;" style="color: purple;"> <button class="btn w-100 rounded my-2" style="border-color: wheat;">Add to cart</button></a>
+                        <a href="/cart-user" style="text-decoration: none;" style="color: purple;"> <button class="btn w-100 rounded my-2" style="border-color: wheat;">Add to cart</button></a>
                     </div>
                 </div>
             </div>
@@ -164,7 +154,7 @@
                             <div class="text-muted">&#8369;50.00</div>
                             <div class="ml-auto"> <button class="border rounded bg-white sign"><span class="fa fa-plus" id="orange"></span></button> <span class="px-sm-1">1 pc</span> <button class="border rounded bg-white sign"><span class="fa fa-minus" id="orange"></span></button>                                    </div>
                         </div>
-                        <a href="cart1.html" style="text-decoration: none;" style="color: purple;"> <button class="btn w-100 rounded my-2" style="border-color: wheat;">Add to cart</button></a>
+                        <a href="/cart-user" style="text-decoration: none;" style="color: purple;"> <button class="btn w-100 rounded my-2" style="border-color: wheat;">Add to cart</button></a>
                     </div>
                 </div>
             </div>
@@ -177,7 +167,7 @@
                             <div class="text-muted price"><del>&#8369;50.00</del>&#8369;25.00</div>
                             <div class="ml-auto"> <button class="border rounded bg-white sign"><span class="fa fa-plus" id="orange"></span></button> <span>1pc</span> <button class="border rounded bg-white sign"><span class="fa fa-minus" id="orange"></span></button> </div>
                         </div>
-                        <a href="cart1.html" style="text-decoration: none;" style="color: purple;"> <button class="btn w-100 rounded my-2" style="border-color: wheat;">Add to cart</button></a>
+                        <a href="/cart-user" style="text-decoration: none;" style="color: purple;"> <button class="btn w-100 rounded my-2" style="border-color: wheat;">Add to cart</button></a>
                     </div>
                 </div>
 

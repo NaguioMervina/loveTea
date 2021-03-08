@@ -93,7 +93,7 @@
             <div class="ml-auto h5"> &#8369; 98.00 </div>
         </div>
         <div>
-            <button class="btn btn-danger btn-block order-button" style=" background-color: wheat;"><a href="/menu" style="color: rgb(43, 42, 42); ">Go back to menu</a></button>
+            <a href="/menu" style="color: rgb(43, 42, 42); "><button class="btn btn-success btn-block order-button" >Go back to menu</button></a>
         </div>
 
         <div class="row border rounded p-1 my-3">

@@ -1,3 +1,5 @@
+<!-- account settings for users only guest has no permission to access this -->
+
 @extends('layout.layoutAccountSetting')
 
 @section('accountSetting')
@@ -9,10 +11,7 @@
     <div class="topnav" id="myTopnav">
 
         <div class="dropdown1">
-            <a href="#">&nbsp;</a>
 
-            <a>&nbsp;</a>
-            
             <button class="dropbtn">Profile </button>
             <div class="dropdown-content">
                 <p>

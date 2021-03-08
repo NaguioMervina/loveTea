@@ -7,30 +7,20 @@
         <img src="images/head.png" class="responsive1" width="200" height="100" &nbsp;>
     </div>
     <div class="topnav" id="myTopnav">
-
+        <a href="/">Logout</a>
         <div class="dropdown1">
-            <a href="#">&nbsp;</a>
-            <a>&nbsp;</a>
+
             <button class="dropbtn">Profile </button>
             <div class="dropdown-content">
                 <p>
-                    <a href="editProfile.html">Account Settings</a>
-                    <a href="login.html">Sign Out</a>
+                    <a href="account-setting-user">Account Settings</a>
             </div>
         </div>
 
-        <div class="dropdown1">
-            <button class="dropbtn">Order </button>
-            <div class="dropdown-content">
-                <p>
-                    <a href="orderConfirm.html">Order Status</a>
-                    <a href="trackOrder.html">Track Order</a>
-
-            </div>
-        </div>
-        <a href="cart.html">Cart</a>
-        <a href="productlist.html">Menu</a>
-        <a href="index1.html" class="active">Home</a>
+        <a href="/error">Order Tracker</a>
+        <a href="/cart-user">Cart</a>
+        <a href="/menu-user">Menu</a>
+        <a href="/user">Home</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
@@ -102,9 +92,9 @@
             <div class="ml-auto h5"> &#8369; 98.00 </div>
         </div>
         <div>
-            <button class="btn btn-danger btn-block order-button" style=" background-color: wheat;"><a href="productlist.html" style="color: rgb(43, 42, 42); ">Go back to menu</a></button>
+            <a href="/user" style="text-decoration: none"><button class="btn btn-success btn-block order-button">Go back to menu</button></a>
         </div>
-
+   <!-- billing address something
         <div class="row border rounded p-1 my-3">
             <div class="col-md-6 py-3">
                 <div class="d-flex flex-column align-items start"> <b>Billing Address</b>
@@ -118,7 +108,7 @@
                     <p class="text-justify">Philippines</p>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 
     <br>
