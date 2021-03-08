@@ -13,7 +13,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto h-100">
                 <li class="nav-item">
-                    <a class="nav-link" href="dashboard.html">
+                    <a class="nav-link" href="/admin">
                         <i class="fas fa-tachometer-alt"></i> Dashboard
                         <span class="sr-only">(current)</span>
                     </a>
@@ -24,19 +24,19 @@
                         <span> Catalog <i class="fas fa-angle-down"></i> </span>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="product&categories.html">Product & Categories</a>
+                        <a class="dropdown-item" href="/product-category">Product & Categories</a>
 
-                        <a class="dropdown-item" href="Categories.html">Inventory</a>
+                        <a class="dropdown-item" href="/inventory-category">Inventory</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="Discount.html">
+                    <a class="nav-link " href="/promotion">
                         <i class="fas fa-tags"></i> Promotions
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="Orders.html">
+                    <a class="nav-link" href="/admin-order">
                         <i class="fas fa-truck"></i> Orders
                     </a>
                 </li>
@@ -44,7 +44,7 @@
             </ul>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link d-block" href="loginadmin.html">
+                    <a class="nav-link d-block" href="/login">
             Admin, <b>Logout</b>
           </a>
                 </li>
@@ -75,14 +75,14 @@
 
                                 <td class="tm-product-name">Originals</td>
                                 <td style="color: black;">15</td>
-                                <td> <a style="color: rgb(10, 10, 10);" href="originals-inventory.html "><i class="far fa-eye"></i>&nbsp;&nbsp;&nbsp;View</a></td>
+                                <td> <a style="color: rgb(10, 10, 10);" href="/originals-inventory "><i class="far fa-eye"></i>&nbsp;&nbsp;&nbsp;View</a></td>
 
                             </tr>
                             <tr>
 
                                 <td class="tm-product-name">Classic Milk Tea</td>
                                 <td style="color: black;">14</td>
-                                <td> <a style="color: rgb(26, 25, 25);" href="originals-inventory.html "><i class="far fa-eye"></i>&nbsp;&nbsp;&nbsp;View</a></td>
+                                <td> <a style="color: rgb(26, 25, 25);" href="/originals-inventory "><i class="far fa-eye"></i>&nbsp;&nbsp;&nbsp;View</a></td>
 
                             </tr>
                             <tr>
@@ -90,35 +90,35 @@
                                 <td class="tm-product-name">Oreo Series</td>
                                 <td style="color: black;">3</td>
 
-                                <td> <a style="color: rgb(26, 25, 25);" href="originals-inventory.html "><i class="far fa-eye"></i>&nbsp;&nbsp;&nbsp;View</a></td>
+                                <td> <a style="color: rgb(26, 25, 25);" href="/originals-inventory "><i class="far fa-eye"></i>&nbsp;&nbsp;&nbsp;View</a></td>
                             </tr>
                             <tr>
 
                                 <td class="tm-product-name">Nutella Series</td>
                                 <td style="color: black;">2</td>
 
-                                <td> <a style="color: rgb(26, 25, 25);" href="originals-inventory.html "><i class="far fa-eye"></i>&nbsp;&nbsp;&nbsp;View</a></td>
+                                <td> <a style="color: rgb(26, 25, 25);" href="/originals-inventory "><i class="far fa-eye"></i>&nbsp;&nbsp;&nbsp;View</a></td>
                             </tr>
                             <tr>
 
                                 <td class="tm-product-name">Mango Grahams Series</td>
                                 <td style="color: black;">4</td>
 
-                                <td> <a style="color: rgb(26, 25, 25);" href="originals-inventory.html "><i class="far fa-eye"></i>&nbsp;&nbsp;&nbsp;View</a></td>
+                                <td> <a style="color: rgb(26, 25, 25);" href="/originals-inventory "><i class="far fa-eye"></i>&nbsp;&nbsp;&nbsp;View</a></td>
                             </tr>
                             <tr>
 
                                 <td class="tm-product-name">Fruit Tea</td>
                                 <td style="color: black;">11</td>
 
-                                <td> <a style="color: rgb(26, 25, 25);" href="originals-inventory.html "><i class="far fa-eye"></i>&nbsp;&nbsp;&nbsp;View</a></td>
+                                <td> <a style="color: rgb(26, 25, 25);" href="/originals-inventory "><i class="far fa-eye"></i>&nbsp;&nbsp;&nbsp;View</a></td>
                             </tr>
                             <tr>
 
                                 <td class="tm-product-name">Snacks</td>
                                 <td style="color: black; ">4</td>
 
-                                <td> <a style="color: rgb(26, 25, 25);" href="originals-inventory.html "><i class="far fa-eye"></i>&nbsp;&nbsp;&nbsp;View</a></td>
+                                <td> <a style="color: rgb(26, 25, 25);" href="/originals-inventory "><i class="far fa-eye"></i>&nbsp;&nbsp;&nbsp;View</a></td>
                             </tr>
 
 
