@@ -28,11 +28,14 @@ Route::get('/register', function () {
     return view('register');
 }); 
 
+/*
 Route::get('/login', function () {
     return view('login');
 }); 
+*/
 
 
+/*
 
 //user-side or registered user
 Route::get('/user', function () {
@@ -68,6 +71,10 @@ Route::get('/order-details-user', function () {
     return view('users/orderDetails');
 }); 
 
+Route::get('/loginGuest', function () {
+    return view('loginGuest');
+}); 
+*/
 
 
 
@@ -152,8 +159,8 @@ Route::get('/originals-inventory', function () {
 
 Auth::routes();
 
-Route::get('/user', 'HomeController@index')
-->name('welcomeUser')
+Route::get('user', 'HomeController@index')
+->name('user')
 ->middleware('auth');
 
 
@@ -161,7 +168,7 @@ Route::get('/user', 'HomeController@index')
 /*Route::get('/loginGuest', function () {
     return view('LoginGuest');
 }); */ 
-Route::post("user",[UserAuth::class,'userLogin']);
+/*Route::post("user",[UserAuth::class,'userLogin']);
 //Route::view("loginGuest",'loginGuest');
 Route::view("welcomeUser",'users/welcomeUser');
 //Route::view("accountSetting",'account-Setting-user');
@@ -180,5 +187,5 @@ Route::get('/logout', function() {
         session()->pull('user');
     }
     return redirect('/');
-});
+}); */
 
