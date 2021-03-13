@@ -152,13 +152,11 @@ Route::get('/originals-inventory', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')
-->name('home')
+Route::get('/user', 'HomeController@index')
+->name('welcomeUser')
 ->middleware('auth');
 
-Route::get('/originals-inventory', function () {
-    return view('admin/originals-inventory');
-}); 
+
 
 /*Route::get('/loginGuest', function () {
     return view('LoginGuest');
@@ -171,7 +169,7 @@ Route::view("welcomeUser",'users/welcomeUser');
 Route::get('/loginGuest', function() {
     if (session()->has('user'))
     {
-        return redirect('loginGuest');
+        return redirect('user');
     }
     return view('loginGuest');
 });

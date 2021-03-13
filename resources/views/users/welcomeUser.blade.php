@@ -8,7 +8,7 @@
     </div>
 
     <div class="topnav" id="myTopnav">
-        <a href="/">Logout</a>
+        <a href="/logout">Logout</a>
         <div class="dropdown">
             <button class="dropbtn">Profile </button>
             <div class="dropdown-content">

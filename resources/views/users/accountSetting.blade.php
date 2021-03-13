@@ -61,7 +61,11 @@
                         </div>
                     </div>
                 </div>
-                <span class="font-weight-bold">Customer User</span><span class="text-black-50">{{session('user')}}</span><span> </span></div>
+                <span class="font-weight-bold">Customer User</span><span class="text-black-50">
+
+                    {{session('user')}}
+                
+                </span><span> </span></div>
         </div>
         <div class="col-md-5 border-right">
             <div class="p-3 py-5">
