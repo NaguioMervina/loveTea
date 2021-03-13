@@ -23,7 +23,7 @@
         </div>
     
         <div class="topnav" id="myTopnav">
-            <a  href="/login">Login</a>
+            <a  href="/loginGuest">Login</a>
             <div class="dropdown">
                 <button class="dropbtn">Profile </button>
                 <div class="dropdown-content">

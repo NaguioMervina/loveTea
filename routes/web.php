@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserAuth;
 
 //universal can be a guests homepage
 Route::get('/', function () {
@@ -147,4 +148,39 @@ Route::get('/originals-inventory', function () {
 }); 
 
 
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')
+->name('home')
+->middleware('auth');
+
+Route::get('/originals-inventory', function () {
+    return view('admin/originals-inventory');
+}); 
+
+/*Route::get('/loginGuest', function () {
+    return view('LoginGuest');
+}); */ 
+Route::post("user",[UserAuth::class,'userLogin']);
+//Route::view("loginGuest",'loginGuest');
+Route::view("welcomeUser",'users/welcomeUser');
+//Route::view("accountSetting",'account-Setting-user');
+
+Route::get('/loginGuest', function() {
+    if (session()->has('user'))
+    {
+        return redirect('loginGuest');
+    }
+    return view('loginGuest');
+});
+
+Route::get('/logout', function() {
+    if (session()->has('user'))
+    {
+        session()->pull('user');
+    }
+    return redirect('/');
+});
 

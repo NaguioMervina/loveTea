@@ -3,10 +3,11 @@
 @section('loginGuest')
 <div class="container">
     <header>Login</header>
-    <form>
+    <form method="POST" action="user">
+        @csrf
         <div class="input-field">
-            <input type="text" required>
-            <label>Email or Username</label>
+            <input type="text" name="user" required>
+            <label for="email"> Email </label>
         </div>
         <div class="input-field">
             <input class="pswrd" type="password" required>
