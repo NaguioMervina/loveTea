@@ -1,18 +1,20 @@
-@extends('layout.layoutLoginGuest')
+@extends('layout.layoutLogin')
 
-@section('loginGuest')
+@section('login')
 <div class="container">
-    <header>Login</header>
-    <form method="" action="">
+    
+    <form method="POST" action="{{ route('login') }}">
         @csrf
         <div class="input-field">
             <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
             <label for="email"> {{ __('E-Mail Address') }} </label>
+
             @error('email')
             <span class="invalid-feedback" role="alert">
                 <strong>{{ $message }}</strong>
             </span>
         @enderror
+
         </div>
         <div class="input-field">
             <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
@@ -56,18 +58,8 @@
             <button><a  href="/checkout" style="color: white; text-decoration: none;">ORDER AS GUEST</a></button>
         </div>
     </form>
-    <div class="auth">
-        Or login with</div>
-    <div class="links">
-        <div class="facebook">
-            <i class="fab fa-facebook-square"><span>Facebook</span></i>
-        </div>
-        <div class="google">
-            <i class="fab fa-google-plus-square"><span>Google</span></i>
-        </div>
-    </div>
     <div class="signup">
-        Don't have an account? <a href="/register">Signup now</a>
+        Don't have an account? <a href="{{ route('register') }}">Register</a>
     </div>
    
 @endsection

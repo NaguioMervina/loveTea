@@ -1,9 +1,20 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <title>LoveTea</title>
 
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <title>{{ config('app.name', 'Laravel') }}</title>
+
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}" defer></script>
+
     <link rel="shortcut icon" type="image/png" href="images/LT_logo.png">
     <link rel="stylesheet" type="text/css" href="css/styling.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
@@ -21,9 +32,9 @@
         <div class="container">
             <img src="images/head.png" class="responsive1" width="200" height="100" &nbsp;>
         </div>
-    
+        
         <div class="topnav" id="myTopnav">
-            <a  href="/login">Login</a>
+            <a  href="{{ route('login') }}"> {{ __('Login') }} </a>
             <div class="dropdown">
                 <button class="dropbtn">Profile </button>
                 <div class="dropdown-content">
@@ -31,7 +42,7 @@
                         <a href="/guest-login">Account Settings</a>
                 </div>
             </div>
-
+          
             <a href="#">Order Tracker</a>
             <a href="/cart">Cart</a>
             <a href="/menu">Menu</a>

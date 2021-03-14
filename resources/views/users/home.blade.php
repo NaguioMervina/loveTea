@@ -2,15 +2,28 @@
 
 @section('welcomeUser')
 <div class="sticky">
+   
 
     <div class="container">
         <img src="images/head.png" class="responsive1" width="200" height="100" &nbsp;>
     </div>
 
+
+
+
     <div class="topnav" id="myTopnav">
-        <a href="/logout">Logout</a>
+        <div>
+        <a href="{{ route('logout') }}"onclick="event.preventDefault();
+        document.getElementById('logout-form').submit();">
+
+            {{ __('Logout') }}
+        </a>
+        <form id="logout-form" action="{{ route('logout') }}" method="POST">
+            @csrf
+        </form>
+        </div>
         <div class="dropdown">
-            <button class="dropbtn">Profile </button>
+            <button class="dropbtn">My Account</button>
             <div class="dropdown-content">
                 <p>
                     <a href="/account-setting-user">Account Settings</a>
@@ -20,12 +33,12 @@
         <a href="/error">Order Tracker</a>
         <a href="/cart-user">Cart</a>
         <a href="/menu-user">Menu</a>
-        <a href="/user">Home</a>
+        <a href="/home">Home</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
     </div>
-
+    
 
 
     <script>

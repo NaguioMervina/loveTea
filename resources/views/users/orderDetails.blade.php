@@ -7,7 +7,14 @@
         <img src="images/head.png" class="responsive1" width="200" height="100" &nbsp;>
     </div>
     <div class="topnav" id="myTopnav">
-        <a href="/">Logout</a>
+        <a href="{{ route('logout') }}"onclick="event.preventDefault();
+        document.getElementById('logout-form').submit();">
+
+            {{ __('Logout') }}
+        </a>
+        <form id="logout-form" action="{{ route('logout') }}" method="POST">
+            @csrf
+        </form>
         <div class="dropdown1">
 
             <button class="dropbtn">Profile </button>

@@ -60,13 +60,18 @@
                                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
                             </div>
                         </div>
-
+                     
                         <div class="form-group row mb-0">
+                            @guest
                             <div class="col-md-6 offset-md-4">
+                                @if (Route::has('register'))
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Register') }}
                                 </button>
+                                @endif
+                               
                             </div>
+                            @endguest
                         </div>
                     </form>
                 </div>

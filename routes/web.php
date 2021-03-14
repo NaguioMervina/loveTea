@@ -6,7 +6,7 @@ use App\Http\Controllers\UserAuth;
 //universal can be a guests homepage
 Route::get('/', function () {
     return view('welcome');
-});
+}); 
 
 Route::get('/contact-us', function () {
     return view('contactUs');
@@ -35,7 +35,7 @@ Route::get('/login', function () {
 */
 
 
-/*
+
 
 //user-side or registered user
 Route::get('/user', function () {
@@ -59,9 +59,7 @@ Route::get('/track-order-user', function () {
     return view('users/trackOrder');
 }); 
 
-Route::get('/account-setting-user', function () {
-    return view('users/accountSetting');
-}); 
+
 
 Route::get('/checkout-user', function () {
     return view('users/checkout');
@@ -74,10 +72,10 @@ Route::get('/order-details-user', function () {
 Route::get('/loginGuest', function () {
     return view('loginGuest');
 }); 
-*/
 
-
-
+Route::get('/account-setting-user', function () {
+    return view('users/accountSetting');
+}); 
 //guest user side
 
 Route::get('/menu', function () {
@@ -155,25 +153,31 @@ Route::get('/originals-inventory', function () {
 }); 
 
 
-
+Route::get('/login', function () {
+    return view('auth/login');
+});
 
 Auth::routes();
 
-Route::get('user', 'HomeController@index')
-->name('user')
-->middleware('auth');
+Route::get('home', 'HomeController@index')->name('home');
+
+
+
+
+
+
 
 
 
 /*Route::get('/loginGuest', function () {
     return view('LoginGuest');
-}); */ 
-/*Route::post("user",[UserAuth::class,'userLogin']);
+}); 
+Route::post("user",[UserAuth::class,'userLogin']);
 //Route::view("loginGuest",'loginGuest');
 Route::view("welcomeUser",'users/welcomeUser');
 //Route::view("accountSetting",'account-Setting-user');
 
-Route::get('/loginGuest', function() {
+Route::get('/login', function() {
     if (session()->has('user'))
     {
         return redirect('user');
@@ -187,5 +191,5 @@ Route::get('/logout', function() {
         session()->pull('user');
     }
     return redirect('/');
-}); */
-
+}); 
+*/ 
