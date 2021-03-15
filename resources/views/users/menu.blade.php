@@ -29,7 +29,7 @@
         <a href="/error">Order Tracker</a>
         <a href="/cart-user">Cart</a>
         <a href="/menu-user">Menu</a>
-        <a href="/user">Home</a>
+        <a href="/home">Home</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
@@ -139,17 +139,18 @@
                 </select> </div>
             </div>
         </div>
+       
         <div class="row">
-    
+            @foreach ($allProducts as $product)
             <div class="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1">
                 <div class="card"> <img class="card-img-top" src="images/OreoMT.png">
                     <div class="card-body">
-                        <h5><b>ITEM</b> </h5>
+                        <h5><b>{{$product->name}}</b> </h5>
                         <div class="d-flex flex-row my-2">
                             <div class="text-muted">&#8369;50.00</div>
                             <div class="ml-auto"> <button class="border rounded bg-white sign"><span class="fa fa-plus" id="orange"></span></button> <span class="px-sm-1">1 pc</span> <button class="border rounded bg-white sign"><span class="fa fa-minus" id="orange"></span></button>                                    </div>
                         </div>
-                        <a href="/cart-user" style="text-decoration: none;" style="color: purple;"> <button class="btn w-100 rounded my-2" style="border-color: wheat;">Add to cart</button></a>
+                        <a href="{{route('cart.add',$product->id)}}" style="text-decoration: none;" style="color: purple;"> <button class="btn w-100 rounded my-2" style="border-color: wheat;">Add to cart</button></a>
                     </div>
                 </div>
             </div>
@@ -179,6 +180,7 @@
                 </div>
 
             </div>
+            @endforeach
 
         </div>
     </div>

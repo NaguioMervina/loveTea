@@ -153,13 +153,14 @@ Route::get('/originals-inventory', function () {
 }); 
 
 
-Route::get('/login', function () {
-    return view('auth/login');
-});
+Route::redirect('/login', 'auth/login');
+
 
 Auth::routes();
 
 Route::get('home', 'HomeController@index')->name('home');
+
+Route::get('add-to-cart', 'CartController@add')->name('cart.add');
 
 
 
