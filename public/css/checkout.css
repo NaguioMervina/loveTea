@@ -5,10 +5,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background: url(images/teaBg.jpg);
-}
-
 #burgundy {
     color: pink
 }
